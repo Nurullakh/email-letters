@@ -1,0 +1,9 @@
+deploy:
+  stage: deploy
+  script:
+    - rsync -azP --delete --no-perms --no-owner --no-group --exclude=node_modules* --exclude=.git* --exclude=.env --chmod=u+rwx,og+rx,Fo+r,Do+rx './' saburov@172.20.96.50:/home/saburov/www/newsletter.05.ru
+    - ssh saburov@172.20.96.50 "cd /home/saburov/www/newsletter.05.ru && yarn && yarn build && exit"
+  only:
+    - master
+  tags:
+    - linux-admin

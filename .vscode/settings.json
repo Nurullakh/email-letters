@@ -1,0 +1,10 @@
+{
+  "mjml.mailer": "nodemailer",
+  "mjml.nodemailer": {
+    "service": "Gmail",
+    "auth": {
+      "user": "frontend05ru@gmail.com",
+      "pass": "05frontend"
+    }
+  }
+}

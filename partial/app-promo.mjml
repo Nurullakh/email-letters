@@ -1,0 +1,16 @@
+<mjml>
+  <mj-body>
+    <mj-section css-class="bonus__app">
+      <mj-group>
+        <mj-column width="60%" padding="25px 18px 22px" vertical-align="top">
+          <mj-text padding-bottom="14px" color="#fff" font-size="17px" font-weight="500" line-height="22px">Отслеживать бонусный баланс можно через приложение</mj-text>
+          <mj-image href="https://play.google.com/store/apps/details?id=com.x05ru.release&hl=ru&gl=US" padding-bottom="8px" align="left" height="21px" width="119px" src="./../img/google.png"></mj-image>
+          <mj-image href="https://apps.apple.com/ru/app/05-ru/id1539023015" align="left" height="22px" width="104px" src="./../img/app.png"></mj-image>
+        </mj-column>
+        <mj-column width="40%" padding-top="15px" vertical-align="bottom">
+          <mj-image align="right" width="130px" height="150px" src="./../img/iphone_3.png"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>

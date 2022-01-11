@@ -1,0 +1,30 @@
+<mjml>
+  <mj-body>
+    <mj-section padding-top="40px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="#F2F2F2" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="29px" padding-bottom="4px">
+      <mj-column width="100%" vertical-align="middle" padding-bottom="12px">
+        <mj-text css-class="footer-text" align="left" color="#181818" font-size="24px" font-weight="500" line-height="19px">8 (800) 511-05-05</mj-text>
+      </mj-column>
+      <mj-column width="100%" vertical-align="middle" padding-bottom="12px">
+        <mj-text>
+          <a style="text-decoration:none;" href="https://wa.me/78722515151"><img height="26px" width="26px" src="./../img/whatsapp.png" />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</a>
+          <a style="text-decoration:none;" href="tg://resolve?domain=online05ru_bot"><img height="26px" width="26px" src="./../img/telegram.png" />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</a>
+          <a style="text-decoration:none;" href="https://www.youtube.com/user/The05ru"><img height="21px" width="30px" src="./../img/youtube.png" />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</a>
+          <a style="text-decoration:none;" href="https://vk.com/05ru.shop"><img height="26px" width="26px" src="./../img/vk.png" />&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</a>
+          <a style="text-decoration:none;" href="https://www.instagram.com/05ru/"><img height="26px" width="26px" src="./../img/instagram.png" /></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="35px">
+      <mj-column>
+        <mj-text css-class="footer-text" color="#818181" font-size="12px" font-weight="400" line-height="19px">Предложения, указанные в настоящей рассылке, действительны на момент отправки письма. Вы получили это письмо, потому что подписались на новости компании «<span class="footer-text">05.ru</span>». Чтобы отписаться от этой рассылки,
+          <a class="footer-link" href="#">перейдите по ссылке</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

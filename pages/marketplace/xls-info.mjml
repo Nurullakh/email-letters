@@ -1,0 +1,82 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+    </mj-attributes>
+    <mj-include path="./style/style.mjml" />
+    <mj-font name="Ubuntu" href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500" />
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-include path="./partial/header.mjml" />
+    <mj-section  padding-top="24px">
+      <mj-column>
+        <mj-text padding-bottom="22px" color="#000000" line-height="30px" font-size="25px" font-weight="500">
+          Отчет о импорте от 12 января
+        </mj-text>
+        <mj-text padding-bottom="5px" line-height="25px" font-size="22px" font-weight="500">
+          <span class="marketplace__text-green">120 товаров</span> загрузились
+        </mj-text>
+        <mj-text padding-bottom="26px" line-height="19px" font-size="14px">
+          Товары загружены в нормальном режиме, они уже доступны в вашем личном кабинете.
+        </mj-text>
+        <mj-text padding-bottom="5px" line-height="25px" font-size="22px" font-weight="500">
+          <span class="marketplace__text-red">20 товаров</span> не были загружены
+        </mj-text>
+        <mj-text color="#000000" font-size="14px" font-weight="400" line-height="19px">
+          Товары не загрузились из-за ошибок в данных, пожалуйста перепроверьте их и попробуйте снова:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="13px">
+      <mj-section padding-bottom="6px">
+        <mj-column width="100%" padding-bottom="7px">
+          <mj-divider border-width="1px" border-color="#F2F2F2" />
+        </mj-column>
+        <mj-group width="100%">
+          <mj-column width="45px" css-class="marketplace__product-img">
+            <mj-image src="../img/product_1.png" align="left"/>
+          </mj-column>
+          <mj-column width="100%" css-class="marketplace__product-desc-wrap" padding="0 10px">
+            <mj-text line-height="19px" font-size="14px">
+              Direct Mail Advertising How I5 Direct Mail Advertising How I Made 47 325
+            </mj-text>
+            <mj-text line-height="19px" font-size="16px" font-weight="500">95 000 руб.</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding-bottom="6px">
+        <mj-column width="100%" padding-bottom="7px">
+          <mj-divider border-width="1px" border-color="#F2F2F2" />
+        </mj-column>
+        <mj-group width="100%">
+          <mj-column width="45px" css-class="marketplace__product-img">
+            <mj-image src="../img/product_2.png" align="left"/>
+          </mj-column>
+          <mj-column width="100%" css-class="marketplace__product-desc-wrap" padding="0 10px">
+            <mj-text line-height="19px" font-size="14px">
+              Direct Mail Advertising How I5 Direct Mail Advertising How I Made 47 325
+            </mj-text>
+            <mj-text line-height="19px" font-size="16px" font-weight="500">95 000 руб.</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding-bottom="6px">
+        <mj-column width="100%" padding-bottom="7px">
+          <mj-divider border-width="1px" border-color="#F2F2F2" />
+        </mj-column>
+        <mj-group width="100%">
+          <mj-column width="45px" css-class="marketplace__product-img">
+            <mj-image src="../img/product_1.png" align="left"/>
+          </mj-column>
+          <mj-column width="100%" css-class="marketplace__product-desc-wrap" padding="0 10px">
+            <mj-text line-height="19px" font-size="14px">
+              Direct Mail Advertising How I5 Direct Mail Advertising How I Made 47 325
+            </mj-text>
+            <mj-text line-height="19px" font-size="16px" font-weight="500">95 000 руб.</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="./partial/footer.mjml" />
+  </mj-body>
+</mjml>

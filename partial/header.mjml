@@ -1,0 +1,23 @@
+<mjml>
+  <mj-body>
+    <mj-section text-align="left" padding-top="18px">
+      <mj-column width="100px">
+        <mj-image src="./../img/logo@2x.png"  width="72px" height="40px" align="left" padding="0" />
+      </mj-column>
+      <mj-column width="350px">
+        <mj-text font-size="14px" padding-top="15px">
+          <a href="https://05.ru/about/contacts/" class="header-link">Магазины</a>
+          <a href="https://05.ru/catalog/" class="header-link">Каталог</a>
+          <a href="https://05.ru/bonus/" class="header-link">Бонусы</a>
+          <a href="https://05.ru/sales/" class="header-link">Акции</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="15px">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="#F2F2F2" />
+        <mj-spacer height="21px" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
